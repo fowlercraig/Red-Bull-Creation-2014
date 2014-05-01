@@ -1,0 +1,55 @@
+/* @override 
+	http://localhost:8888/creation2014/wp-content/themes/gridded/stylesheets/layout.css */
+
+body {
+   line-height: 1.4;
+   color: #333;
+}
+
+.frame {
+   max-width: 1280px;
+   margin: auto;
+}
+
+.menu li {
+   display: inline;
+   margin-right: 10px;
+}
+
+body,html {
+  height: 100%;
+}
+
+#wrapper-outter, #wrapper, #content, #content article, #one-pager {
+  height: 100%;
+  width: 100%;
+}
+
+#RedBullWidgets--GlobalNav-Wrapper {
+  position: fixed;
+  left: 0;
+  right: 0;
+  z-index: 9;
+}
+
+#header {
+  padding-top: 38px;
+  top: 0;
+  display: none;
+}
+
+#one-pager .pane {
+  overflow: hidden;
+  background: #111;
+}
+
+#one-pager .pane.pane-2 {
+  background: #000 url(http://i.imgur.com/iApmNb4.jpg) fixed center center;
+  background-size: cover;
+}
+
+#one-pager img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
