@@ -20,7 +20,7 @@ $settings = array(
 'isotope'		   => array('//cdnjs.cloudflare.com/ajax/libs/jquery.isotope/1.5.25/jquery.isotope.min.js'),
 'slides'		   => array('/wp-content/themes/redbull-creation-2014/javascripts/slides.min.jquery.js'),
 'fitvids'		   => array('//cdnjs.cloudflare.com/ajax/libs/fitvids/1.0.1/jquery.fitvids.min.js'),
-'parallax'		 => array('//cdnjs.cloudflare.com/ajax/libs/jquery-parallax/1.1.3/jquery-parallax-min.js'),
+'parallax'		 => array('/wp-content/themes/redbull-creation-2014/javascripts/jquery.parallax.js'),
 'waypoints'		 => array('//cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js'),
 'debounced'		 => array('/wp-content/themes/redbull-creation-2014/javascripts/scroller/jquery.debouncedresize.js'),
 'transit'		   => array('//cdnjs.cloudflare.com/ajax/libs/jquery.transit/0.9.9/jquery.transit.min.js'),
@@ -31,13 +31,16 @@ $settings = array(
 'onepage'		   => array('/wp-content/themes/redbull-creation-2014/javascripts/jquery.onepage-scroll.min.js'),
 'pep'      		 => array('//cdnjs.cloudflare.com/ajax/libs/jquery.pep/0.4.0/jquery.pep.min.js'),
 'magnific'     => array('//cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/0.9.9/jquery.magnific-popup.min.js'),
+'lenttic'      => array('/wp-content/themes/redbull-creation-2014/javascripts/lenticular.min.js'),
 'scripts'		   => array('/wp-content/themes/redbull-creation-2014/javascripts/scripts.js'),
 ),
 
 'default_scripts' => array(
 'jquery',
 'smartajax',
+'magnific',
 'transit',
+'parallax',
 'onepage',
 'scripts'),
 
@@ -59,6 +62,7 @@ $settings = array(
 'default_stylesheets' => array(
 'default',
 'onepage',
+'magnific',
 'layout'
 ),
 
